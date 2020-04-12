@@ -14,7 +14,7 @@ import com.tetravalstartups.unitedindore.R;
 
 public class BusinessProfileActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //Class members
+    //vipin pagal
     private TextInputEditText etBName;
     private TextInputEditText etBDesc;
     private AutoCompleteTextView atvBCat;
