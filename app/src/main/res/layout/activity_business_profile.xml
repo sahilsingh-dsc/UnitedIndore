@@ -73,6 +73,7 @@
                         android:id="@+id/etBName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:fontFamily="@font/roboto_condensed_regular" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -94,6 +95,7 @@
                         android:id="@+id/etBDesc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:fontFamily="@font/roboto_condensed_regular" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -195,9 +197,10 @@
                     android:hint="Shop No.">
 
                     <com.google.android.material.textfield.TextInputEditText
-
+                        android:id="@+id/etBShopNo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -215,8 +218,10 @@
                     android:hint="Shop Address Line 1">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBShopAddressL1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -234,8 +239,10 @@
                     android:hint="Shop Address Line 2">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBShopAddressL2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textPostalAddress"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -253,8 +260,10 @@
                     android:hint="Shop Pincode">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBShopPincode"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="number"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -292,8 +301,10 @@
                     android:hint="Phone Number 1">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBPhoneNumber1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="phone"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -311,8 +322,10 @@
                     android:hint="Phone Number 2">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBPhoneNumber2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="phone"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -330,8 +343,10 @@
                     android:hint="Phone Number 3">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBPhoneNumber3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="phone"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -349,8 +364,10 @@
                     android:hint="WhatsApp Number">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBWhatsappNumber"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="phone"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -368,8 +385,10 @@
                     android:hint="Email Address">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBEmailAddress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -387,8 +406,10 @@
                     android:hint="Website">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBWebsite"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textUri"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -406,8 +427,10 @@
                     android:hint="Instagram Profile">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBInstagram"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textUri"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -425,14 +448,17 @@
                     android:hint="LinkedIn Profile">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etBLinkedIn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:inputType="textUri"
                         android:fontFamily="@font/roboto_condensed_regular" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
             
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProceed"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Proceed"
