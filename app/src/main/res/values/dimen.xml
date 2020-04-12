@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xl">16dp</dimen>
+    <dimen name="x3">8dp</dimen>
+    <dimen name="x2">4dp</dimen>
+    <dimen name="x1">2dp</dimen>
+    <dimen name="x0">0dp</dimen>
+    <dimen name="x_tl_Box">0dp</dimen>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/f_m_dashboard"
+        android:icon="@drawable/ic_dashboard_black_64dp"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/f_m_customer"
+        android:icon="@drawable/ic_group_work_black_64dp"
+        android:title="Customer" />
+    <item
+        android:id="@+id/f_m_post"
+        android:icon="@drawable/ic_present_to_all_black_64dp"
+        android:title="Post" />
+    <item
+        android:id="@+id/f_m_ledger"
+        android:icon="@drawable/ic_import_contacts_black_64dp"
+        android:title="Ledger" />
+    <item
+        android:id="@+id/f_m_admin"
+        android:icon="@drawable/ic_business_center_black_64dp"
+        android:title="Admin" />
+</menu>

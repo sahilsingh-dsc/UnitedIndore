@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613129444179",
+    "firebase_url": "https://united-indore.firebaseio.com",
+    "project_id": "united-indore",
+    "storage_bucket": "united-indore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613129444179:android:2b2a946b5792ba56559fa6",
+        "android_client_info": {
+          "package_name": "com.tetravalstartups.unitedindore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613129444179-n71ov004ejb34v2uic7aggga5i21427k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tetravalstartups.unitedindore",
+            "certificate_hash": "541c9f633a976703e3c227082f6c0591490a25cc"
+          }
+        },
+        {
+          "client_id": "613129444179-r65ioh09s6mvn88me8gv3grqp35srkbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3PAbdeoDT5E-x7XbJwiow_7GcXzwzsLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613129444179-r65ioh09s6mvn88me8gv3grqp35srkbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
